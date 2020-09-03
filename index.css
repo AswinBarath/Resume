@@ -1,0 +1,49 @@
+/* html style is applied to all of the elements inside the html tag */
+html {   
+    font-family: "Times New Roman", Times, serif;
+    font-size: 125%;
+}
+h1 {    
+    text-align: center; 
+    color: red;
+}
+h2 {
+    color: blue;
+}
+img {
+    height:200px;
+    width: 150px;
+    box-shadow: 10px 10px 5px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td {
+    border-style: double;
+    border: 1px solid black;
+}
+
+/* Style elements are provided for the Social Contact Icons at the bottom*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa:hover {
+      opacity: 0.7;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-github {
+    background: white;
+    color: black;
+}
